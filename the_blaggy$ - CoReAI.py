@@ -1033,8 +1033,6 @@ def turn(board, symbol):
 
     else:
         ret = random_turn(board, symbol, new)
-    
-    ret = rndm(board, symbol)
 
     ret_list.append(ret)
     return ret
